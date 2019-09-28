@@ -1,0 +1,261 @@
+body{
+    padding-bottom: 100px;
+    background: rgba(236, 238, 241, .46);
+    padding-left: 76px;
+    padding-right: 76px;
+    position: relative;
+}
+
+h2{
+    font-family: acumin-pro;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.main-content{
+    min-height: 650px;
+    width: 500px;
+    /* background: rgb(100, 150, 112); */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin-top: 200px; */
+    margin-right: 72px;
+    padding: 8px;
+}
+
+.main-content h1{
+    font-family: acumin-pro;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 56px;
+}
+
+.main-content p{
+    font-family: acumin-pro;
+    font-weight: bold;
+    font-size: 13px;
+    color:rgb(107, 182, 252);
+    padding: 0;
+    margin: 0;
+}
+
+.main-content span{
+    font-family: acumin-pro;
+    font-weight: bold;
+    font-size: 13px;
+    color: rgb(0, 0, 0, 0.4);
+    letter-spacing: 0.5px;
+    line-height: 20px;
+
+}
+
+.main-content a:hover{
+    text-decoration: none;
+}
+
+.img-brooke{
+    height: 650px;
+    position: absolute;
+    left: 0;
+}
+
+.img-bai{
+    height: 380px;
+    position: relative;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+
+.about-us{
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    padding: 16px;
+    padding-left: 32px;
+    /* padding-top:48px; */
+    border: 0px solid black;
+    margin-top: 72px; 
+    right: 580px;
+    width: 680px;
+    height: 220px;
+
+}
+
+.about-us h1{
+    font-family: 'Sail', cursive;
+    font-size: 46px;
+}
+
+.about-us p{
+    font-family: acumin-pro;
+    color: rgb(0, 0, 0, 0.5);
+    line-height: 30px;
+    /* font-size: 28px; */
+}
+
+.navclass{
+    position: fixed;
+    right: 0;
+    width: 600px;
+}
+
+.nav-link{
+    font-size: 0.8rem;
+    margin-right: 32px;
+    font-weight: bold;
+}
+
+.hiw{
+    margin-top: 72px;
+}
+
+.how-it-works{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  width: 300px;
+    align-items: center;
+    padding: 16px;
+    margin-top: 32px;
+    border: 0.1px solid #f0f0f0;
+    border-top-width: 0px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1)
+}
+
+.how-it-works span{
+    text-align: center;
+    font-family: acumin-pro;
+    margin-top: 16px;
+    color: rgb(0, 0, 0, 0.4);
+    font-size: 11px;
+    /* line-height: 30px; */
+}
+
+.how-it-works img{
+    margin-bottom: 16px;
+}
+
+.col-lg-3{
+    /* justify-content: center; */
+    display: flex;
+    height: 300px;
+    width: '100%';
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.col-lg-6{
+    padding-right: 16px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding-bottom: 32px; */
+    justify-content: center;
+}
+
+.col-lg-6 h1 {
+    margin-left: 16px;
+    margin-bottom: 24px;
+    font-family: acumin-pro;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.col-lg-6 p {
+    margin-left: 16px;
+    color: rgb(0, 0, 0, 0.5);
+    line-height: 30px;
+}
+
+.col-lg-6 img {
+    margin-left: 42px;
+    width: 450px;
+    height:350px;
+    border: 0px solid black;
+    min-width: 350px;
+    border-radius: 5px;
+    /* min-height: 300px;    */
+    /* height: auto; */
+}
+
+.why-choose{
+    /* margin-top: 48px; */
+    background: #fff;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1)
+}
+
+.why-choose h2{
+    font-family: 'Sail', cursive;
+    font-size: 46px;
+}
+
+.why-choose h3{
+    font-family: 'Sail', cursive;
+    font-size: 46px;
+}
+
+.wc-heading{
+    padding-top: 48px;
+    margin-left: 16px;
+}
+
+.heading-wc{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1.5px solid rgba(15, 170, 231, 0.295); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    /* margin-top: 48px;  */
+} 
+
+.heading-wc span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.how-it-works-cont{
+    padding-top: 32px; 
+    margin-top:32px; 
+    background-color: #fff;
+    /* margin-left: 0px; */
+}
+
+.how-it-works-cont h1{
+    font-family: 'Sail', cursive;
+}
+
+.wc-cont{
+    margin: 0px;
+    padding: 48px;
+    margin-top: 32px;
+
+}
+
+.carousel{
+    padding-bottom: 32px;
+}
+
+.carousel-indicators li {
+    background-color: #999;
+    background-color: rgba(70, 70, 70, 0.4);
+}
+
+.carousel-indicators .active {
+    background-color: rgb(2,118,254)
+  }
+
+.blue-line-icon{
+    width: 48px; 
+    height: 2px; 
+    background-color: #0276fe;
+    margin-top: 8px;
+}
+
