@@ -298,20 +298,21 @@ h2{
 
 }
 
-/* .img-pro-cont{
-    width: 180px;
-    height: 180px;
-   
-    overflow: hidden;
-
-} */
-
-.pro-image{
+.img-pro-cont{
     width: 180px;
     height: 180px;
     border-radius: 180px;
+    overflow: hidden;
     border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 48px;
+}
+
+.pro-image{
+    width: 190px;
+    /* border: 1px solid black; */
 }
 
 .founder-card{
